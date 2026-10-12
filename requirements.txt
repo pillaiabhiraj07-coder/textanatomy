@@ -1,0 +1,15 @@
+streamlit>=1.32
+nltk>=3.8
+spacy>=3.7
+transformers>=4.38
+torch>=2.2
+scikit-learn>=1.3
+pandas>=2.0
+
+# coreferee is a small, infrequently-updated coreference-resolution
+# package. If installing it fails (or `python -m coreferee install en`
+# fails) on your Python version, that's OK -- comment out this line and
+# the Pragmatics tab will automatically use its built-in heuristic
+# fallback instead (see modules/pragmatics.py). The app never breaks
+# because of this dependency either way.
+coreferee
